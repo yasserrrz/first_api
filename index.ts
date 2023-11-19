@@ -1,6 +1,5 @@
 import { createServer, IncomingMessage, ServerResponse } from "http";
 import { Post, User } from "./interface";
-import { json } from "stream/consumers";
 
 let users :User[]  = [
     {
